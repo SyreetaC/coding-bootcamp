@@ -1,0 +1,20 @@
+.header-container {
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+}
+.container {
+  position: relative;
+  height: 80vh;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  border: solid 1px black;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
